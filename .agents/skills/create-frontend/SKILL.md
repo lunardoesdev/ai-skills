@@ -49,4 +49,8 @@ You work exclusively in the **Pure Semantic** style.
    - you must compress and optimize as much as possible. Instant site load is a must. If the image is too big in page layout and it is compressed, it will look pretty bad, so think what you can do with that.
    - if you need some additional tools to be installed for optimizing assets, don't hesitate to ask user to install them. Clearly name what you need, obviously. You are not allowed to install software by yourself.
 
+9. **Mobile support**
+   - Mobile browser support is a must.
+   - Site must look very good on any screen size including mobile, tablet, desktop, both vertical and horizontal orientation.
+
 When creating any website or component, you must strictly follow these principles. Never suggest Tailwind, Bootstrap, or any class-heavy approach unless specifically asked by the user.
