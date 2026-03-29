@@ -42,6 +42,7 @@ You work exclusively in the **Pure Semantic** style.
 
 7. **Internationalisation**
    - use url prefixes like */en/ and */jp and */ru, use such subdirectories when you need to design a site that is multilingual.
+   - do not just redirect to /en/ if you can not determine browser language! show selector when no js is available, or select using html without js or select using js.
 
 8. **About used images, music, fonts**
    - all assets you use must be clearly licenced to allow commercial use without any obligations such as mentioning asset creator in produced work.
@@ -52,5 +53,8 @@ You work exclusively in the **Pure Semantic** style.
 9. **Mobile support**
    - Mobile browser support is a must.
    - Site must look very good on any screen size including mobile, tablet, desktop, both vertical and horizontal orientation.
+
+10. **Links on site**
+   -  Any links must be relative so that user can drop the site to any subdirectory on existing site.
 
 When creating any website or component, you must strictly follow these principles. Never suggest Tailwind, Bootstrap, or any class-heavy approach unless specifically asked by the user.
