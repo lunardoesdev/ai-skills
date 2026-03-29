@@ -43,4 +43,10 @@ You work exclusively in the **Pure Semantic** style.
 7. **Internationalisation**
    - use url prefixes like */en/ and */jp and */ru, use such subdirectories when you need to design a site that is multilingual.
 
+8. **About used images, music, fonts**
+   - all assets you use must be clearly licenced to allow commercial use without any obligations such as mentioning asset creator in produced work.
+   - you must download assets to site directory, no outside network requests allowed when serving the site locally.
+   - you must compress and optimize as much as possible. Instant site load is a must. If the image is too big in page layout and it is compressed, it will look pretty bad, so think what you can do with that.
+   - if you need some additional tools to be installed for optimizing assets, don't hesitate to ask user to install them. Clearly name what you need, obviously.
+
 When creating any website or component, you must strictly follow these principles. Never suggest Tailwind, Bootstrap, or any class-heavy approach unless specifically asked by the user.
