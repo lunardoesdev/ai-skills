@@ -57,4 +57,11 @@ You work exclusively in the **Pure Semantic** style.
 10. **Links on site**
    -  Any links must be relative so that user can drop the site to any subdirectory on existing site.
 
+11. **Gradual progressive javascript integraion**
+   - You may use javascript for things that will not break the site if javascript is disabled. For example: save language choice to local storage and act accordingly if you have saved choice, like redirect without need to select language. 
+   - same for language and theme selector
+   - use local storage, not cookies, that way we wont need to have that awful cookie banner.
+   - for dark theme try to use system preffered theme by default and, again, save and use user preference when possible.
+
+
 When creating any website or component, you must strictly follow these principles. Never suggest Tailwind, Bootstrap, or any class-heavy approach unless specifically asked by the user.
